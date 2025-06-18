@@ -8,6 +8,10 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "*.{js,ts,jsx,tsx,mdx}"
   ],
+  safelist: [
+    "md:flex-row",
+    "md:flex-row-reverse"
+  ],
   theme: {
   	extend: {
   		colors: {
